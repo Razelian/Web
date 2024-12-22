@@ -1,0 +1,55 @@
+/* Background Image for Body Container */
+body {
+    /* Background Image URL (replace 'background.jpg' with your image file name) */
+    background-image: url('images/back.jpg'); 
+
+    /* Ensure the background covers the entire page */
+    background-size: cover;
+
+    /* Make the background fixed while scrolling */
+    background-attachment: fixed;
+
+    /* Center the image */
+    background-position: center;
+
+    /* Add some padding to prevent text from touching edges */
+    padding: 20px;
+
+    /* Set a fallback background color in case the image fails to load */
+    background-color: #f4f4f4;
+}
+
+/* Style for the main content container */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Add padding for the header and footer */
+header, footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(51, 51, 51, 0.9); /* Semi-transparent dark background */
+    color: white;
+}
+
+/* Style for the navigation bar */
+nav {
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff6347;
+}

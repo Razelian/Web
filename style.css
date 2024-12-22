@@ -1,0 +1,89 @@
+/* style.css */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body spans the full height of the viewport */
+    line-height: 1.6; /* Increase the line spacing */
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #444;
+    padding: 0.5rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    flex: 1; /* Ensures the container takes up remaining space */
+}
+.container p {
+    line-height: 1.6; /* Ensures readable spacing for paragraph text */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+/* Center the video container */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+/* Make iframe responsive while maintaining aspect ratio */
+.video-container iframe {
+    width: 100%;
+    max-width: 800px; /* Set a max width for the video */
+    height: auto;
+    aspect-ratio: 16/9; /* Maintains aspect ratio */
+}
+/* Compact and Transparent Text Box */
+.text-box {
+    display: inline-block;  /* Only as wide as the text */
+    /*background-color: rgba(255, 255, 255, 0.3); /* Slightly transparent white */
+    padding: 0 4px;          /* Minimal padding: no vertical padding */
+    border-radius: 2px;      /* Slightly rounded corners */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    line-height: 1;          /* Tight line height */
+    font-size: 1em;          /* Normal font size */
+    color: rgb(255, 255, 255);            /* Set text color to black */
+}
+
+
